@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #ffe500;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -8,25 +9,25 @@ html {
 }
 
 h1 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 3rem;
   text-align: center;
   margin: 0;
+  padding: 0;
 }
 
 header {
-  margin: .3em;
+  margin-bottom: .3em;
 }
 
 body {
   margin: 0;
 }
 
-div {
+main {
   background-color: white;
-  margin: 0;
-  padding: .75em;
+  padding: .75em .75em .35em;
 }
 
 nav a {
@@ -36,7 +37,7 @@ nav a {
   display: inline-block;
   background-color: #b2a212;
   border-radius: 4px;
-  padding: .5em .3em;
+  padding: .2em .5em .3em;
   margin: 0;
   font-size: 1.125rem;
 }
@@ -53,7 +54,7 @@ nav li {
 }
 
 nav a:hover {
-  background-color: #cc1465
+  background-color: #cc1465;
 }
 
 .current {
@@ -61,26 +62,27 @@ nav a:hover {
 }
 
 h2 {
-  font-family: Sigmar One, sans-serif;
+  font-family: "Sigmar One", sans-serif;
   color: #b20953;
   font-size: 1.875rem;
+  margin: 0;
+  padding: .5em 0;
 }
 
 p {
   font-family: Georgia, serif;
-  font-size: .75rem;
+  font-size: 1rem;
   color: #2f2d13;
 }
 
 footer {
   text-align: center;
   margin: .3em;
-  padding: .75em;
+  padding: 0 .75em;
 }
 
 img {
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
+  display: block;
+  margin: .3em 0;
+  width: 100%;
 }
